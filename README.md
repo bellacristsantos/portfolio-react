@@ -1,2 +1,4 @@
-# projeto-final-pretalab
-Projeto final do Ciclo Formativo com foco em React. 
+
+## Projeto Final do Ciclo Formativo PretaLab | ReactJS ⚡     
+
+
