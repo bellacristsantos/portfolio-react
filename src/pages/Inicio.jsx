@@ -7,10 +7,10 @@ import styles from "../styles/pages/inicio.module.css";
 export function Inicio() {
   return (
     <>
-      <Header text="Meu site pessoal" image={homeImg} />
+      <Header text="Olá!" image={homeImg} />
       <div className={styles.homeContainer}>
         <div className={styles.cardContainer}>
-          <Alien size={150} color="#686AAC" weight="thin" />
+          <Alien size={100} color="#ebebd3" weight="thin" />
           <h2 className={styles.cardTitle}>Vida</h2>
           <p className={styles.cardText}>
             Eu conto um pouquinho sobre mim, minha formação, a história da minha
@@ -18,7 +18,7 @@ export function Inicio() {
           </p>
         </div>
         <div className={styles.cardContainer}>
-          <BracketsCurly size={150} color="#686AAC" weight="thin" />
+          <BracketsCurly size={100} color="#ebebd3" weight="thin" />
           <h2 className={styles.cardTitle}>Código</h2>
           <p className={styles.cardText}>
             Mostro meu portfólio. Tudo o que aprendi até o momento dando
@@ -27,7 +27,7 @@ export function Inicio() {
           </p>
         </div>
         <div className={styles.cardContainer}>
-          <AddressBook size={150} color="#686AAC" weight="thin" />
+          <AddressBook size={100} color="#ebebd3" weight="thin" />
           <h2 className={styles.cardTitle}>Contatinho</h2>
           <p className={styles.cardText}>
             Entre em contato comigo. Seja para entrevistas de emprego como deva

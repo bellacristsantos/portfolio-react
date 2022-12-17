@@ -1,10 +1,14 @@
 .menuContainer {
-  background: #fff;
+  background: #3c3c3b;
   display: flex;
   gap: 10rem;
   align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  justify-content: space-around;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  
 }
 
 .menuItem {
@@ -14,7 +18,7 @@
 .menuLink {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #686AAAC;
+  color: #f5d547;
 }
 
 @media (max-with: 765px) {

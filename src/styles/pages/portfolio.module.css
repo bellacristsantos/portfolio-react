@@ -1,0 +1,23 @@
+.portfolioContainer {
+  background: #343432;
+  height: 700px;
+}
+
+.portfolioCard {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolioButton {
+  background: #f5d547;
+  border: 0;
+  border-radius: 16px;
+  padding: 8px 35px;
+  color: var(--bg-grey);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

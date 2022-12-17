@@ -5,22 +5,27 @@
   align-items: center;
   gap: 4rem;
   text-align: center;
+  background: #343432;
+  height: 700px;
 }
 
 .cardContainer {
   width: 100%;
+  background: #343432;
+  color: #ebebd3;
 }
 
 .cardTitle {
   padding: 1rem;
   font-size: 2rem;
-  color: #474a51;
+  color: #f5d547;
 }
 
 .cardText {
   font-size: 1.2rem;
-  align-text: center;
-  color: #474a51;
+  text-align: center;
+  color: #ebebd3;
+  margin-top: 20px;
 }
 
 @media (max-width: 765px) {
